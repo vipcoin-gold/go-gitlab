@@ -18,6 +18,8 @@ package main
 
 import (
 	"log"
+
+	gitlab "github.com/vipcoin-gold/go-gitlab"
 )
 
 func labelExample() {

@@ -19,6 +19,8 @@ package main
 import (
 	"log"
 	"time"
+
+	gitlab "github.com/vipcoin-gold/go-gitlab"
 )
 
 func pipelineExample() {

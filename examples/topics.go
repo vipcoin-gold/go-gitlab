@@ -19,6 +19,8 @@ package main
 import (
 	"log"
 	"os"
+
+	gitlab "github.com/vipcoin-gold/go-gitlab"
 )
 
 func topicExample() {

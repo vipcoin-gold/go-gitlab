@@ -18,6 +18,8 @@ package main
 
 import (
 	"log"
+
+	gitlab "github.com/vipcoin-gold/go-gitlab"
 )
 
 // This example shows how to create a client with username and password.

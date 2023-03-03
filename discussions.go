@@ -751,7 +751,7 @@ func (s *DiscussionsService) CreateMergeRequestDiscussion(pid interface{}, merge
 	}
 
 	var ds []*Discussion
-	resp, err := s.client.Do(req, ds)
+	resp, err := s.client.Do(req, &ds)
 	if err != nil {
 		return nil, resp, err
 	}
