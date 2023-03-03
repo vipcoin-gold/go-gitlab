@@ -19,8 +19,6 @@ package main
 import (
 	"log"
 	"time"
-
-	"github.com/xanzy/go-gitlab"
 )
 
 func pipelineExample() {

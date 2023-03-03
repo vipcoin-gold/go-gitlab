@@ -18,8 +18,6 @@ package main
 
 import (
 	"log"
-
-	"github.com/xanzy/go-gitlab"
 )
 
 // This example shows how to create a client with username and password.

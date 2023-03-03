@@ -18,8 +18,6 @@ package main
 
 import (
 	"log"
-
-	"github.com/xanzy/go-gitlab"
 )
 
 func pipelineTestReportExample() {

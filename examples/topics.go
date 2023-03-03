@@ -19,8 +19,6 @@ package main
 import (
 	"log"
 	"os"
-
-	"github.com/xanzy/go-gitlab"
 )
 
 func topicExample() {
