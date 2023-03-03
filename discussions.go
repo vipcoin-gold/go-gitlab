@@ -750,13 +750,13 @@ func (s *DiscussionsService) CreateMergeRequestDiscussion(pid interface{}, merge
 		return nil, nil, err
 	}
 
-	d := new(Discussion)
-	resp, err := s.client.Do(req, d)
+	var ds []*Discussion
+	resp, err := s.client.Do(req, ds)
 	if err != nil {
 		return nil, resp, err
 	}
 
-	return d, resp, err
+	return ds[0], resp, err
 }
 
 // ResolveMergeRequestDiscussionOptions represents the available
